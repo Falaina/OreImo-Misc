@@ -1,0 +1,4 @@
+#!/usr/bin/env python2
+from os.path import join, dirname
+
+execfile(join(dirname(__file__), '..', 'find_strings.py'))
